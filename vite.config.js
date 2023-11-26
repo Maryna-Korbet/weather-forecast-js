@@ -24,9 +24,7 @@ export default defineConfig(({ command }) => {
         },
       },
       outDir: '../dist',
-      rollupOptions: {
       external: ['../secret_api_key.js'],
-  },
     },
     plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
   };
