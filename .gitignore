@@ -23,5 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 
-# secret_key
-secret_api_key.js
