@@ -1,5 +1,3 @@
-import SECRET_API_KEY from "../secret_api_key.js";
-
 const elements = {
   form: document.querySelector(".js-search-form"),
   list: document.querySelector(".js-list"),
@@ -29,7 +27,7 @@ function handlerForecast(evt) {
 function serviceWeather(city = "", days = "0") {
   const BASE_URL = "http://api.weatherapi.com/v1"; 
   const END_POINT = "/forecast.json";
-  const API_KEY = SECRET_API_KEY;
+  const API_KEY = "6410346f89264d6e919165208231505";
 
   const params = new URLSearchParams({
     key: API_KEY,

@@ -24,7 +24,6 @@ export default defineConfig(({ command }) => {
         },
       },
       outDir: '../dist',
-      external: ['../secret_api_key.js'],
     },
     plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
   };
