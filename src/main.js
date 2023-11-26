@@ -1,4 +1,4 @@
-import SECRET_API_KEY from "../secret_api_key";
+import SECRET_API_KEY from "../secret_api_key.js";
 
 const elements = {
   form: document.querySelector(".js-search-form"),
